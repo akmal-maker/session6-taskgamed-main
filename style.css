@@ -206,3 +206,17 @@
   border-radius: 2px;
   opacity: 75%;
 }
+.explore-container {
+  background-color: #f2f2f2;
+  margin: 20px;
+  padding: 0px;
+  width: 35%;
+}
+.explore-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.explore-img {
+  width: fit-content;
+  height: fit-content;
+}
