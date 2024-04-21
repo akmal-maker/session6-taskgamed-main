@@ -21,6 +21,7 @@
 }
 .navbar1 a:hover {
   background-color: aliceblue;
+  animation-duration: 1s;
 }
 #LOGO {
   float: left;
@@ -206,17 +207,17 @@
   border-radius: 2px;
   opacity: 75%;
 }
-.explore-container {
-  background-color: #f2f2f2;
+.explore-container{
+  width: 30%;
+  border: solid 1px rgb(201, 190, 190);
   margin: 20px;
-  padding: 0px;
-  width: 35%;
+  float: left;
 }
-.explore-item {
-  display: inline-block;
-  margin-right: 10px;
+.image-container{
+  background-clip: border-box;
 }
-.explore-img {
-  width: fit-content;
-  height: fit-content;
+.explore-item{
+  opacity: 90%;
+  padding: 20px;
+  margin: 10px;
 }
